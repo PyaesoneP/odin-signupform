@@ -63,11 +63,13 @@ fieldset {
     border: none;
     padding: 0px;
     margin-bottom: 30px;
+    gap: 15px;
 }
 
 input {
     border:1px solid #E5E7EB;
     border-radius: 3px;
+    font-size: 16px;
 }
 
 input:focus-visible {
@@ -126,4 +128,24 @@ input:invalid {
 
 #confirm-password {
     display: block;
+}
+
+label {
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+}
+
+.infotext {
+    padding-left: 30px;
+    padding-right: 175px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    font-style: italic;
 }
