@@ -1,0 +1,81 @@
+@font-face {
+    font-family: logofont;
+    src: url(../assets/Norse-Bold.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.backgroundimg {
+    position: relative;
+    flex: 2;
+}
+
+.formsection {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(250, 250, 250);
+    padding-left: 30px;
+}
+
+.bgimage {
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logoimg {
+    display: inline-block;
+    width: 85px;
+}
+
+.logotext {
+    font-family: logofont;
+    display: inline-block;
+    color: white;
+    font-size: 75px;
+}
+
+.form-card {
+    background-color: white;
+}
+
+fieldset {
+    display: flex;
+    border: none;
+    padding: 0px;
+}
+
+
+.first-name {
+    flex: 1;
+}
+
+.last-name {
+    flex: 2;
+}
+
+#First-name {
+    display: block;
+}
+
+#Last-name {
+    display: block;
+}
