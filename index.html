@@ -33,26 +33,34 @@
             <fieldset>
                 <div class="first-name">
                     <label for="First-name">FIRST NAME</label>
-                    <input type="text" name="First-name" id="First-name" placeholder="John" required/>
+                    <input type="text" name="First-name" id="First-name" placeholder="John" minlength="1"/>
                 </div>
                 <div class="last-name">
                     <label for="Last-name">LAST NAME</label>
-                    <input type="text" name="Last-name" id="Last-name" placeholder="Legend" required/>
+                    <input type="text" name="Last-name" id="Last-name" placeholder="Legend" minlength="1"/>
                 </div>
             </fieldset>
 
             <fieldset>
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" placeholder="example@gmail.com" required/>
-                <label for="ph-number">PHONE NUMBER</label>
-                <input type="number" name="ph-number" id="ph-number" placeholder="09........."/>
+                <div class="email">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com"/>
+                </div>
+                <div class="phonenumber">
+                    <label for="ph-number">PHONE NUMBER</label>
+                    <input type="number" name="ph-number" id="ph-number" placeholder="09........." min="11"/>
+                </div>
             </fieldset>
             
             <fieldset>
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" required/>
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password" required/>
+                <div class="password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required/>
+                </div>
+                <div class="confirmpassword">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required/>
+                </div>
             </fieldset>
         </div>
 
