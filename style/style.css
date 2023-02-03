@@ -50,6 +50,25 @@ body {
     display: inline-block;
     color: white;
     font-size: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.credit>p {
+    color: white;
+    font-size: 14px;
+}
+
+.credit>p>a {
+    color: white;
+    text-decoration: underline;
 }
 
 .form-card {
@@ -148,4 +167,27 @@ label {
 
 span {
     font-style: italic;
+}
+
+.account {
+    padding-left: 30px;
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
 }
